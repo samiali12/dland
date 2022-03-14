@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300&family=Spartan:wght@100;200;300;400;500;600;700;800&display=swap');
+
+:root{
+    --color-primary: #2289FF;
+    --color-secondary: #314862 !important;
+    --color-ascent: #193F6A;
+    --font-poppins: 'Poppins' serif;
+}
+
+/* custom classes */
+.bg-primary{
+    background-color: var(--color-primary);
+}
+.color-primary{
+    color: var(--color-primary);
+}
+.bg-secondary{
+    background-color: var(--color-secondary);
+}
+.color-secondary{
+    color: var(--color-secondary);
+}
+.bg-ascent{
+    background-color: var(--color-ascent);
+}
+.color-ascent{
+    color: var(--color-ascent)
+}
+
+
+/* header style */
+.header{
+    width: 100%;
+}
+.header nav.navbar{
+    box-shadow: none;
+    color: var(--color-secondary);
+}
+.header nav.navbar .navbar-brand{
+    font-family: var(--font-poppins);
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--color-secondary);
+}
+.header nav.navbar .nav-link{
+    font-family: var(--font-poppins);
+    color: var(--color-secondary);
+    font-weight: 500;
+    padding: 10px 20px;
+    transition: 0.2s ease;
+}
+.header nav.navbar .nav-link:hover{
+    color: var(--color-primary)
+}
+.header nav.navbar .nav-item{
+    margin: auto 5px;
+}
+.btn-theme{
+    box-shadow: none;
+    background-color: var(--color-primary);
+    font-family: var(--font-poppins);
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    margin: 0;
+    border-radius: 20px 20px 0 20px;
+    text-transform: capitalize;
+}
+.btn-theme:hover{
+    background-color: aliceblue;
+    border: 1px solid var(--color-primary);
+}
